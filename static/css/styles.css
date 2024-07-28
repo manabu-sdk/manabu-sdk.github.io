@@ -10998,6 +10998,7 @@ html {
     font-size: 1.5rem;
   }
 }
+
 .portfolio .portfolio-item {
   cursor: pointer;
   position: relative;
@@ -11029,12 +11030,6 @@ html {
 .portfolio-modal .portfolio-modal-title {
   font-size: 2.25rem;
   line-height: 2rem;
-}
-@media (min-width: 992px) {
-  .portfolio-modal .portfolio-modal-title {
-    font-size: 3rem;
-    line-height: 2.5rem;
-  }
 }
 
 .footer {
@@ -11192,5 +11187,9 @@ html {
     position: absolute;
     top: 0;
     width: 100%;
+  }
+  .portfolio-modal .portfolio-modal-title {
+    font-size: 3rem;
+    line-height: 2.5rem;
   }
 }
