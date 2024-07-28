@@ -11140,13 +11140,13 @@ html {
   }
 
   .ai-popup {
-      width: 100%;
-      height: 100%;
-      position: fixed;
-      top: 0;
-      left: 0;
-      z-index: 9999;
-      background-color: #fff;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: #fff;
   }
 
   .ai-frame {
@@ -11162,15 +11162,15 @@ html {
   }
   
   .ai-popup .header button {
+    font-size: 24px;
+    padding: 10px 15px;
+  }
+  
+  .ai-disclaimer {
     font-size: 14px;
+    padding: 10px;
   }
-  
-  .ai-popup .disclaimer {
-    font-size: 10px;
-    bottom: 5px;
-    right: 5px;
-  }
-  
+
   .page-section {
     padding: 2rem 0;
   }
@@ -11192,39 +11192,5 @@ html {
     position: absolute;
     top: 0;
     width: 100%;
-  }
-  .ai-popup {
-  width: 100%;
-  height: 80%;
-  bottom: 0;
-  right: 0;
-  border-radius: 0;
-  }
-  .ai-button button {
-    font-size: 24px;
-    padding: 10px 15px;
-  }
-  
-  .ai-disclaimer {
-    font-size: 14px;
-    padding: 10px;
-  }
-
-  .ai-popup.minimized {
-    height: 50px;
-  }
-  
-  .ai-popup .header {
-    padding: 0px;
-  }
-  
-  .ai-popup .header button {
-    font-size: 24px;
-  }
-  
-  .ai-popup .disclaimer {
-    font-size: 10px;
-    bottom: 5px;
-    right: 5px;
   }
 }
