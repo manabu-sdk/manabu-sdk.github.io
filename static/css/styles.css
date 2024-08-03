@@ -11110,13 +11110,6 @@ html {
   vertical-align: middle;
 }
 
-.ai-button  {
-  height: 50px;
-  width: 50px;
-  padding: 0;
-  margin: 0;
-}
-
 /* 免責事項のスタイル */
 .ai-disclaimer {
   height: 50px;
@@ -11178,19 +11171,6 @@ html {
   }
   .divider-custom-icon {
     font-size: 1.2rem;
-  }
-  .iframe-container {
-    overflow: hidden;
-    padding-top: 56.25%;
-    position: relative;
-  }
-  .iframe-container iframe {
-    border: 0;
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
   }
   .portfolio-modal .portfolio-modal-title {
     font-size: 3rem;
