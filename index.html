@@ -183,7 +183,7 @@
                     </div>
                 </div>
                 <div class="row p-0">
-                    <h3>経歴（直近案件から記載）</h3>
+                    <h3>経歴・実績（直近案件から記載）</h3>
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-sm-12 p-0">
@@ -815,6 +815,11 @@
     const minimizeBtn = document.getElementById('minimizeBtn');
     const restoreBtn = document.getElementById('restoreBtn');
 
+    // スマホかどうかを判断するロジック
+    function isMobile() {
+        return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    }
+
     minimizeBtn.addEventListener('click', () => {
       aiPopup.classList.add('minimized');
       minimizeBtn.style.display = 'none';
@@ -827,16 +832,12 @@
       restoreBtn.style.display = 'none';
     });
 
-    minimizeBtn.click();
+    // スマホの場合のみminimizeBtn.click()を実行する
+    if (isMobile()) {
+        minimizeBtn.click();
+    }
   </script>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="static/js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     </body>
 </html>
